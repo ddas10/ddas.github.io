@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "🚶〰️ Dhyan’s Lane",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -23,32 +23,32 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "EB Garamond",
+        body: "EB Garamond",
         code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#fdf6e3",          // Warm Parchment (The light cream in the sky/path)
+          lightgray: "#f2e5bc",      // Soft Sand (Borders that blend with the paper)
+          gray: "#bdae8b",           // Muted Gold (Metadata and dates)
+          darkgray: "#3c3836",       // Charcoal Ink (Body text - from the character's silhouette)
+          dark: "#1d2021",           // Deepest Ink (Headings - sharp and clear)
+          secondary: "#af3a03",      // Burnt Orange (Links - the deep amber tones in the field)
+          tertiary: "#d79921",       // Goldenrod (Hover states - the bright yellow washes)
+          highlight: "#fabd2f33",    // Sunbeam (Soft gold highlight)
+          textHighlight: "#ebdbb2aa",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#1d2021",          // Deepest Ink Background
+          lightgray: "#3c3836",      // Darkened Charcoal
+          gray: "#928374",           // Stone Grey
+          darkgray: "#ebdbb2",       // Silk Cream Text
+          dark: "#fbf1c7",           // Bright Parchment Headings
+          secondary: "#fabd2f",      // Radiant Gold Links
+          tertiary: "#fe8019",       // Sunset Orange Accents
+          highlight: "#d7992133",    // Amber Glow
+          textHighlight: "#bdae8b44",
         },
       },
     },
